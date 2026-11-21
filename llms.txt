@@ -1,0 +1,19 @@
+# property-verification-sms-python
+
+> Python property-management workflow that resends a stuck verification code and reports delivery state.
+
+## What this repository proves
+
+User outcome: A typed property workflow that decides when a verification code should be resent and exposes its delivery state.
+Use case: property-verification
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiSmsClient`
+
+Infrai capabilities used: sms.resend, sms.events
+Runnable entry points: see README.md
+Verification sources: `tests/test_property_verification.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

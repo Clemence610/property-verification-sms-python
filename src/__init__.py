@@ -1,0 +1,1 @@
+"""Property verification example package."""
